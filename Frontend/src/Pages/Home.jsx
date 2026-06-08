@@ -22,7 +22,7 @@ export default function Home() {
 
   async function fetchProducts() {
     try {
-      const url = "http://localhost:3000/products";
+      const url = "https://auth-backend-psi-liart.vercel.app/products";
       const headers = {
         Authorization: localStorage.getItem("token"),
       };
