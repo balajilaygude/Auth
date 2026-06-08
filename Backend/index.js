@@ -14,8 +14,7 @@ port=process.env.PORT || 3000
 app.use(bodyparser.json())
 app.use(cors())
 
-app.use("/auth", router)
-app.use("/products", productRouter)
+
 
 app.get("/",(req,res)=>{
     return res.json({
@@ -49,5 +48,7 @@ app.use(async (req, res, next) => {
         });
     }
 });
+app.use("/auth", router);
+app.use("/products", productRouter);
 
 module.exports = app;
