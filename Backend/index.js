@@ -27,25 +27,27 @@ app.get("/",(req,res)=>{
 //     console.log("Server Started ....")
 //     dbConnect()
 // })
-let connected=false
-const mongo_url=process.env.MONGO_URL
+let cached = false;
 
-async function dbConnect(){
+async function dbConnect() {
+    if (cached) return;
 
-    try {
-        await mongoose.connect(mongo_url)
-        connected=true;
-        console.log("Databse Connected ....")
-        
-    } catch (error) {
-        console.log("Database Error " , error)
-    }
+    await mongoose.connect(process.env.MONGO_URL);
+
+    cached = true;
+    console.log("Database Connected");
 }
-app.use((req,res,next)=>{
-    if(!connected){
-        dbConnect();
+
+app.use(async (req, res, next) => {
+    try {
+        await dbConnect();   // IMPORTANT: await here
+        next();
+    } catch (err) {
+        res.status(500).json({
+            success: false,
+            message: "Database connection failed"
+        });
     }
-    next();
-})
-        
+});
+
 module.exports = app;
