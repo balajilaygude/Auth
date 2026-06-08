@@ -28,7 +28,7 @@ export default function Signup() {
 
 
         try {
-            const url="http://localhost:3000/auth/signup";
+            const url="https://auth-backend-psi-liart.vercel.app/auth/signup";
             const response=await fetch(url,{
                 method:"POST",
                 headers:{
