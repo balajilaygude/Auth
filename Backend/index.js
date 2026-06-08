@@ -27,5 +27,7 @@ app.get("/",(req,res)=>{
 //     console.log("Server Started ....")
 //     dbConnect()
 // })
+dbConnect()
+
 
 module.exports = app;
