@@ -58,8 +58,8 @@ export default function Login() {
         }
     }
   return (
-    <div className="min-w-screen min-h-screen bg-pink-200 flex flex-col justify-center items-center">
-      <div className="lg:w-3/5 w-4/5 h-92 bg-pink-500 flex justify-center items-center flex-col rounded-2xl shadow-2xl shadow-pink-800-">
+    <div className="min-w-screen min-h-screen bg-purple-200 flex flex-col justify-center items-center">
+      <div className="lg:w-3/5 w-4/5 h-92 bg-purple-500 flex justify-center items-center flex-col rounded-2xl shadow-2xl shadow-pink-800-">
         <h2 className="text-4xl font-semibold my-5 text-white">Login</h2>
         <form className="flex flex-col w-4/5 " onSubmit={handleSubmit}>
             <input onChange={handleChange} value={loginInfo.email}
