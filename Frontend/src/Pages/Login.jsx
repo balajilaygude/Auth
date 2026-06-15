@@ -59,7 +59,7 @@ export default function Login() {
     }
   return (
     <div className="min-w-screen min-h-screen bg-purple-200 flex flex-col justify-center items-center">
-      <div className="lg:w-3/5 w-[95%] h-92 bg-purple-500 flex justify-center items-center flex-col rounded-2xl shadow-2xl shadow-pink-800-">
+      <div className="lg:w-3/5 w-4/5 h-92 bg-purple-500 flex justify-center items-center flex-col rounded-2xl shadow-2xl shadow-pink-800-">
         <h2 className="text-4xl font-semibold my-5 text-white">Login</h2>
         <form className="flex flex-col w-4/5 " onSubmit={handleSubmit}>
             <input onChange={handleChange} value={loginInfo.email}
@@ -68,7 +68,7 @@ export default function Login() {
           <input onChange={handleChange} value={loginInfo.password}
           className="mb-3 p-2 border-2 placeholder:text-white
            text-white outline-none border-white rounded-lg" type="password" name="password" placeholder="Password" />
-            <button className="bg-white w-3/12 mb-2 mx-auto rounded-2xl h-12 cursor-pointer px-2"> Login</button>
+            <button className="bg-white w-3/12 mb-2 mx-auto rounded-2xl h-12 cursor-pointer"> Login</button>
         </form>
         <p className="text-white">Don't Have an Account ? 
             <span className="cursor-pointer hover:text-pink-200"><Link to="/signup"> Sign Up</Link></span></p>
