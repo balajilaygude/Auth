@@ -1,3 +1,5 @@
+<img width="1918" height="912" alt="Screenshot 2026-06-13 200806" src="https://github.com/user-attachments/assets/85406782-c5cd-4886-a5b5-26ef80d4b799" />
+<img width="1918" height="912" alt="Screenshot 2026-06-16 195538" src="https://github.com/user-attachments/assets/b956a27a-1d7a-4af0-991a-12b0d3b99121" />
 # Authentication & Protected Dashboard System
 
 ## Overview
@@ -98,6 +100,7 @@ https://auth-frontend-five-theta.vercel.app/
 ## Images
 <img width="1918" height="911" alt="Screenshot 2026-06-16 195504" src="https://github.com/user-attachments/assets/6d3bb880-a7bc-4377-b1dd-30660caf5e42" />
 <img width="1918" height="915" alt="Screenshot 2026-06-16 195451" src="https://github.com/user-attachments/assets/5933f5b1-a32b-44d0-9031-83bfecad549d" />
+<img width="1918" height="912" alt="Screenshot 2026-06-16 195538" src="https://github.com/user-attachments/assets/6b7f0189-f625-4c03-b1e0-d08f8ba6cbf9" />
 
 
 
