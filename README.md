@@ -1,5 +1,4 @@
-<img width="1918" height="912" alt="Screenshot 2026-06-13 200806" src="https://github.com/user-attachments/assets/85406782-c5cd-4886-a5b5-26ef80d4b799" />
-<img width="1918" height="912" alt="Screenshot 2026-06-16 195538" src="https://github.com/user-attachments/assets/b956a27a-1d7a-4af0-991a-12b0d3b99121" />
+
 # Authentication & Protected Dashboard System
 
 ## Overview
