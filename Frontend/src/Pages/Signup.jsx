@@ -78,7 +78,7 @@ export default function Signup({setIsAuth}) {
           <input onChange={handleChange} value={signupInfo.password}
           className="mb-3 p-2 border-2 placeholder:text-sky-500
            text-sky-500 outline-sky-600 border-sky-500 rounded-lg" type="password" name="password" placeholder="Password" />
-            <button className="bg-sky-500 w-3/12 mb-2 mx-auto rounded-2xl px-1 py-1 text-white hover:bg-white hover:text-sky-500 border border-sky-500 h-12 cursor-pointer">{loading?"Loading..": "SignUp"}</button>
+            <button className="bg-sky-500 w-3/12 mb-2 mx-auto rounded-2xl sm:px-3 py-1 text-white hover:bg-white hover:text-sky-500 border border-sky-500 h-12 cursor-pointer">{loading?"Loading..": "SignUp"}</button>
         </form>
         <p className="text-sky-500">Already Hve an Account ? 
             <span className="cursor-pointer hover:text-sky-800"><Link to="/login"> Login</Link></span></p>
