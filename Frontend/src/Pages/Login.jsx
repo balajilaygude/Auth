@@ -37,7 +37,6 @@ export default function Login({ setIsAuth }) {
         body: JSON.stringify(loginInfo),
       });
       const result = await response.json();
-      console.log(result);
       const { success, message, error, name, jwtToken } = result;
       if (success) {
         handleSuccess(message);

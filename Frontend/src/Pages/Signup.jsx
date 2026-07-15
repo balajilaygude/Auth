@@ -39,10 +39,8 @@ export default function Signup({setIsAuth}) {
                 },body:JSON.stringify(signupInfo)
             });
             const result=await response.json();
-            console.log(result)
             const {success,message,error,name,jwtToken}=result
             if(success){
-                console.log("block 1")
                 handleSuccess(message);
                 localStorage.setItem("token",jwtToken);
                 localStorage.setItem("name",name);
@@ -52,19 +50,16 @@ export default function Signup({setIsAuth}) {
                     setLoading(false)
                 },1000)
             }else if(error){
-                console.log("block 2")
                 const detail=error?.details[0].message
                 handleError(detail)
                 setLoading(false)
             }
             else if(!success){
-                console.log("block 3")
                 const detail=message
                 handleError(detail)
                 setLoading(false)
             }
         } catch (error) {
-            console.log("block 4")
             handleError(error) 
             setLoading(false)
         }

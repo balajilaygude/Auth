@@ -16,7 +16,7 @@ export default function Home() {
     localStorage.removeItem("name");
     handleSuccess("user Logout ...");
     setTimeout(() => {
-      Navigate("/login");
+      Navigate("/");
     }, 1000);
   }
 
