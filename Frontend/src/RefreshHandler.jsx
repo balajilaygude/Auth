@@ -14,7 +14,7 @@ export default function RefreshHandler({setIsAuth}) {
                 location.pathname==="/login"
             ){
                 Navigate("/home",{replace:false})
-            }
+            } 
         }
     },[location,Navigate,setIsAuth])
 
