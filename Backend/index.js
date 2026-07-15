@@ -7,6 +7,8 @@ require("dotenv").config()
 //here
 const router = require("./Routes/Auth.routes")
 const productRouter = require("./Routes/Products.routes")
+//Comment
+// const dbConnect = require("./Config/db")
 
 const app=express()
 port=process.env.PORT || 3000
@@ -14,7 +16,9 @@ port=process.env.PORT || 3000
 app.use(bodyparser.json())
 app.use(cors())
 
-
+//Comment
+// app.use("/auth", router);
+// app.use("/products", productRouter);
 
 app.get("/",(req,res)=>{
     return res.json({
@@ -22,6 +26,8 @@ app.get("/",(req,res)=>{
     })
 })
 
+
+//Comment
 // app.listen(port,()=>{
 //     console.log("Server Started ....")
 //     dbConnect()

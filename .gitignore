@@ -7,11 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-/Frontend
-src
-App
-Login
-Signip
+
 /Backend/node_modules
 /Frontend/node_modules
 dist
