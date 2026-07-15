@@ -1,3 +1,4 @@
+
 # Authentication & Protected Dashboard System
 
 ## Overview
@@ -94,6 +95,15 @@ Protecting backend endpoints required middleware-based token verification and pr
 
 Live Demo:
 https://auth-frontend-five-theta.vercel.app/
+
+## Images
+<img width="1918" height="911" alt="Screenshot 2026-06-16 195504" src="https://github.com/user-attachments/assets/6d3bb880-a7bc-4377-b1dd-30660caf5e42" />
+<img width="1918" height="915" alt="Screenshot 2026-06-16 195451" src="https://github.com/user-attachments/assets/5933f5b1-a32b-44d0-9031-83bfecad549d" />
+<img width="1918" height="912" alt="Screenshot 2026-06-16 195538" src="https://github.com/user-attachments/assets/6b7f0189-f625-4c03-b1e0-d08f8ba6cbf9" />
+
+
+
+
 
 ## Impact
 
