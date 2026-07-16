@@ -96,11 +96,12 @@ Protecting backend endpoints required middleware-based token verification and pr
 Live Demo:
 https://auth-frontend-five-theta.vercel.app/
 
-## Images
-
 <img width="1918" height="912" alt="Screenshot 2026-07-15 122523" src="https://github.com/user-attachments/assets/1d7275a7-dc88-42c8-ae01-659f6c2701b8" />
 
 <img width="1918" height="910" alt="Screenshot 2026-07-15 121302" src="https://github.com/user-attachments/assets/5016351c-3b20-4289-aba7-a4d02629ae63" />
+
+## Images
+
 
 <img width="1918" height="912" alt="Screenshot 2026-07-15 121322" src="https://github.com/user-attachments/assets/205896d3-8f0b-48bd-838d-72081673ed41" />
 
