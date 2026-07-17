@@ -14,7 +14,7 @@ const userShecma= new mongoose.Schema({
         type:String,
         required:true
     },
-})
+},{timestamps:true})
 
 const userModel=mongoose.model("user",userShecma)
 
